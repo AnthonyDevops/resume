@@ -1,36 +1,76 @@
 body {
-  background-color: rgb(183, 128, 79);
+  border: 5px solid rgba(255, 238, 0, 0.743);
+  padding:5rem;
+  background: rgba(226, 168, 117, 0.812);
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom:2px;  
+  
 }
-h1{
+header h1{
     text-align:center;
-    color: rgb(63, 165, 205);
+    color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: solid;
-    border-color: black;
     
 }
-h3{
+Header P{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
-div{
-    text-align: center;
+
+
+img{
+    background-color: aliceblue;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ box-sizing: content-box;  
+  width: 300px;
+  height: 300px;
+  padding: 5px;  
+  border: 10px solid blue;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+
+   
+  
+  
 }
+
+
 aside{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+aside ul {
+   font-size: large; 
+  display: inline-block;
+  text-align: left;
+  box-sizing: content-box;  
+  width: auto;
+  height: auto;
+  padding: 30px;  
+  border: 5px solid blue;
+  background-color: #f4f88aaf;
+  
 }
 h2{
-    
-  color: yellow;
-  background-color: blue;
+  font-size: 30px;
+  background-color: #ccc;
+  margin: 3px;
+  padding: 3px;
 }
-body {
-  font-size: 14px;
-  color: navy;
+article p{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding:1rem
+  
+}
+footer a{
+    line-height: 3;
 }
 
-
-h1 {
-  color: #ffc;
-  background-color: #009;
-}
