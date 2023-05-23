@@ -55,6 +55,7 @@ Header P{
 
 
 img{
+  max-width:100%;
     background-color: aliceblue;
     display: block;
   margin-left: auto;
@@ -103,3 +104,39 @@ footer a{
     line-height: 3;
 }
 
+/* ------------Mobile------------*/
+
+@media (max-width: 480px) {
+  body { background-color: blue; }
+  h2{
+font-size: 30px;
+  background-color: #ccc;
+  margin: 3px;
+  padding: 3px;
+}
+}
+
+    
+
+/* ------------Tablet------------*/
+@media only screen and (max-width: 769px){
+  body { background-color: red; }
+  h2{
+font-size: 30px;
+  background-color: #ccc;
+  margin: 3px;
+  padding: 3px;
+}
+  
+}
+
+/* ------------Desktop------------*/
+@media only screen and (max-width: 1024px){
+  body { background-color: yellow; }
+h2{
+font-size: 30px;
+  background-color: #ccc;
+  margin: 3px;
+  padding: 3px;
+}
+}
